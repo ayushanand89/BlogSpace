@@ -6,6 +6,8 @@ import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import Input from "./Input";
 import Button from "./Button";
+import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();

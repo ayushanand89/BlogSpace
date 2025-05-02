@@ -27,7 +27,7 @@ function App() {
     <div>
       <div className="min-h-screen flex flex-col justify-between bg-gray-400">
         <Header />
-        <main>TODO: {/* <Outlet /> */}</main>
+        <main><Outlet /></main>
         <Footer />
       </div>
     </div>
